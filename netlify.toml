@@ -1,7 +1,7 @@
 [build]
 publish = "dist"
 command = """
-  wget -qi https://github.com/elanthia-online/jinxp/releases/download/v0.2.4-prerelease/jinxp \
+  wget -q https://github.com/elanthia-online/jinxp/releases/download/v0.2.4-prerelease/jinxp \
   && chmod +x jinxp \
   && ./jinxp -i scripts
   """
